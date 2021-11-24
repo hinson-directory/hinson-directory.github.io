@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import directorySections from '../static/DirectorySections.json';
+
 export default {
 	data() {
 		return {
@@ -40,11 +42,8 @@ export default {
 				lineHeight: 4.25,
 				rowHeight: 35,
 			},
-			directorySections: [],
+			directorySections: directorySections,
 		};
-	},
-	async mounted() {
-		this.directorySections = await this.$axios.$get('/DirectorySections.json');
 	},
 };
 </script>
