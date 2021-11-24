@@ -1,8 +1,16 @@
 [
 	{
 		"includeSection": true,
-		"header": "Hinson Members: In Area",
-		"listName": "Directory: In-Area Members",
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Hinson Members: In Area"
+			},
+			{
+				"name": "List Name",
+				"value": "Directory: In Area Members"
+			}
+		],
 		"flagRows": [
 			[
 				{
@@ -80,8 +88,16 @@
 	},
 	{
 		"includeSection": false,
-		"header": "In-Area Members",
-		"listName": "",
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "In-Area Members"
+			},
+			{
+				"name": "List Name",
+				"value": ""
+			}
+		],
 		"flagRows": [
 			[
 				{
@@ -155,6 +171,481 @@
 					"value": true
 				}
 			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Hinson Members: Unable to Attend"
+			},
+			{
+				"name": "List Name",
+				"value": "Directory: Unable to Attend Members"
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": true
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Hinson Children"
+			},
+			{
+				"name": "Line Spacing",
+				"value": 0
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Birthday",
+					"value": true
+				},
+				{
+					"name": "Age",
+					"value": true
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Hinson Members: Out of Area"
+			},
+			{
+				"name": "List Name",
+				"value": "Directory: Out-of-Area Members"
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": true
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Unable to Attend Members"
+			},
+			{
+				"name": "List Name",
+				"value": "Directory: Unable to Attend Members"
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": true
+				},
+				{
+					"name": "Children",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": true
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Previous Residents"
+			},
+			{
+				"name": "List Name",
+				"value": "Previous Residents"
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": true
+				},
+				{
+					"name": "Employer",
+					"value": true
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": false
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Seminarians"
+			},
+			{
+				"name": "List Name",
+				"value": "Seminarians"
+			}
+		],
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": true
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": false
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"textRow": [
+			{
+				"name": "Header",
+				"value": "Membership by First Name"
+			},
+			{
+				"name": "Columns",
+				"value": 3
+			}
+		],
+		"flagRows": [
 		]
 	}
 ]

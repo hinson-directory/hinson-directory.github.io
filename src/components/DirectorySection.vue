@@ -11,17 +11,14 @@
 
 		<div class="card-body">
 			<div class="row g-3 mb-3">
-				<div class="col">
-					<label>Header</label>
+				<div v-for="text in section.textRow"
+					class="col">
+					<label>
+						{{ text.name }}
+					</label>
 					<input type="text"
 						class="form-control"
-						v-model="section.header" />
-				</div>
-				<div class="col">
-					<label>List Name</label>
-					<input type="text"
-						class="form-control"
-						v-model="section.listName" />
+						v-model="text.value" />
 				</div>
 			</div>
 
