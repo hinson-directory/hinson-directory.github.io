@@ -1,6 +1,7 @@
 <template>
 	<div class="app">
-		<Header />
+		<Header
+			@generatePdf="generatePdf" />
 		<div class="container">
 			<ApiKey
 				v-model="planningCenterApiKey" />
@@ -47,5 +48,10 @@ export default {
 			directorySections: directorySections,
 		};
 	},
+	methods: {
+		generatePdf() {
+			console.log('GENERATE PDF');
+		}
+	}
 };
 </script>
