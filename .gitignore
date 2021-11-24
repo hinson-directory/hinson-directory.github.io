@@ -68,8 +68,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
+### Include dist folder for github pages hosting
 # Nuxt generate
-dist
+#dist
 
 # vuepress build output
 .vuepress/dist
