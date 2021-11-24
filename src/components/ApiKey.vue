@@ -1,12 +1,11 @@
 <template>
 	<div class="api-key card mb-3">
 		<div class="card-header">
-				Planning Center API Key
+			<h2>Planning Center API Key</h2>
 		</div>
 		<div class="card-body">
 			<input type="text"
 				class="form-control"
-				placeholder="Planning Center API Key"
 				v-model="apiKey" />
 		</div>
 	</div>

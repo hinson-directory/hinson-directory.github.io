@@ -1,12 +1,12 @@
 <template>
 	<div class="directory-section card mb-3">
 		<div class="card-header">
-			<h3 class="cart-title">
+			<h2 class="cart-title d-flex justify-content-between">
+				{{ sectionName }}
 				<input type=checkbox
 					class="form-check-input"
 					v-model="section.includeSection" />
-				{{ sectionName }}
-			</h3>
+			</h2>
 		</div>
 
 		<div class="card-body">

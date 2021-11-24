@@ -1,9 +1,9 @@
 <template>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark mb-3">
 		<div class="container d-flex justify-content-between">
-			<a class="navbar-brand">
+			<h1 class="navbar-brand">
 				Hinson Directory Generator
-			</a>
+			</h1>
 			<div role="group"
 				class="btn-group">
 				<button type="button"
