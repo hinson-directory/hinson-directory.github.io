@@ -1,0 +1,160 @@
+[
+	{
+		"includeSection": true,
+		"header": "Hinson Members: In Area",
+		"listName": "Directory: In-Area Members",
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": true
+				}
+			]
+		]
+	},
+	{
+		"includeSection": false,
+		"header": "In-Area Members",
+		"listName": "",
+		"flagRows": [
+			[
+				{
+					"name": "Job Title",
+					"value": false
+				},
+				{
+					"name": "Employer",
+					"value": false
+				},
+				{
+					"name": "School",
+					"value": false
+				},
+				{
+					"name": "Occupation",
+					"value": false
+				},
+				{
+					"name": "Children",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "Phone Number",
+					"value": true
+				},
+				{
+					"name": "Email Address",
+					"value": true
+				},
+				{
+					"name": "Address",
+					"value": true
+				},
+				{
+					"name": "City",
+					"value": true
+				},
+				{
+					"name": "State",
+					"value": true
+				},
+				{
+					"name": "Postal Code",
+					"value": true
+				},
+				{
+					"name": "Country",
+					"value": true
+				}
+			],
+			[
+				{
+					"name": "New Member Footnote",
+					"value": false
+				},
+				{
+					"name": "Pending Baptism Footnote",
+					"value": false
+				}
+			],
+			[
+				{
+					"name": "Birthday",
+					"value": false
+				},
+				{
+					"name": "Date Joined",
+					"value": true
+				}
+			]
+		]
+	}
+]

@@ -6,9 +6,10 @@
 			<DirectoryConfig
 			 	:config="directoryConfig "/>
 			<DirectorySection
-				v-for="sectionId in sectionIds"
-				:key="sectionId"
-				:section-id="sectionId" />
+				v-for="(directorySection, index) in directorySections"
+				:key="index"
+				:section-id="index"
+				:section="directorySection" />
 		</div>
 	</div>
 </template>
@@ -17,7 +18,6 @@
 export default {
 	data() {
 		return {
-			sectionIds: [...Array(9).keys()],
 			directoryConfig: {
 				pageSize:	'Letter',
 				margin: {
@@ -40,7 +40,11 @@ export default {
 				lineHeight: 4.25,
 				rowHeight: 35,
 			},
+			directorySections: [],
 		};
+	},
+	async mounted() {
+		this.directorySections = await this.$axios.$get('/DirectorySections.json');
 	},
 };
 </script>
