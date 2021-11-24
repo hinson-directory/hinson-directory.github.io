@@ -1,8 +1,9 @@
 <template>
 	<div class="app">
 		<Header />
-
 		<div class="container">
+			<ApiKey
+				v-model="planningCenterApiKey" />
 			<DirectoryConfig
 			 	:config="directoryConfig "/>
 			<DirectorySection
@@ -20,6 +21,7 @@ import directorySections from '../static/DirectorySections.json';
 export default {
 	data() {
 		return {
+			planningCenterApiKey: '',
 			directoryConfig: {
 				pageSize:	'Letter',
 				margin: {
