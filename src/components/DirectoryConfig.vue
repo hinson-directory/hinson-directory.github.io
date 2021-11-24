@@ -63,7 +63,7 @@
 			<div class="col">
 				<label>Image Padding</label>
 				<input type="text"
-					id="image_config.padding"
+					class="form-control"
 					v-model="config.padding.image" />
 			</div>
 			<div class="col">
