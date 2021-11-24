@@ -18,6 +18,7 @@
 
 <script>
 import directorySections from '../static/DirectorySections.json';
+import generatePdf from '~/plugins/GeneratePdf';
 
 export default {
 	data() {
@@ -50,7 +51,11 @@ export default {
 	},
 	methods: {
 		generatePdf() {
-			console.log('GENERATE PDF');
+			generatePdf.generate({
+				config: this.directoryConfig,
+				sections: this.directorySections
+					.filter(section => section.includeSection)
+			});
 		}
 	}
 };
